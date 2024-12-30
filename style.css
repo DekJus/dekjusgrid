@@ -25,7 +25,7 @@ img{
 }
 .menu-list ul{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 10px;
 }
 .menu-list li{
@@ -43,6 +43,44 @@ img{
     font-size: 1.1em;
 
 }
-
-
 /* Tutup Navigasi */
+
+/* Buka Header */
+.header{
+    display: grid;
+    grid-template-areas: 
+    'hero hero hoodie'
+    'hero hero tshirt';
+
+}
+.header .hero{
+    grid-area: hero;
+    background-image: url(/video8/img/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 50px;
+
+}
+.header .features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-size: cover;
+}
+.header .feature1{
+    grid-area: hoodie;
+    background-image: url(/video8/img/hoodie.png);
+}
+.header .feature2{
+    grid-area: tshirt;
+    background-image: url(/video8/img/tshirt.png);
+    background-position: center;
+}
+
+
+/* Tutup Header */
