@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+    font-size: 18px;
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+img{
+    width: 100%;
+}
+
+/* Navigasi */
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.menu .brand{
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: "Merriweather";
+}
+.menu-list ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.menu-list li{
+    list-style: none;
+}
+.menu-list a{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    font-family: "Merriweather";
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+
+
+/* Tutup Navigasi */
