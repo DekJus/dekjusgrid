@@ -79,8 +79,6 @@ img{
 .header .feature2{
     grid-area: tshirt;
     background-image: url(/video8/img/tshirt.png);
-    background-position: center;
+    background-position: center -100px;
 }
-
-
 /* Tutup Header */
