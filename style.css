@@ -79,3 +79,33 @@ img {
   background-position: center -100px;
 }
 /* Tutup Header */
+
+/* Buka Services */
+.services{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.service{
+    padding: 20px;
+    letter-spacing: 2px;
+    background-color: #eee;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.32);
+}
+
+.icon{
+    font-size: 2.5em;
+}
+.service h2{
+    font-size: 1.2em;
+}
+.service p{
+    font-size: 0.8em;
+}
+/* Tutup Services */
